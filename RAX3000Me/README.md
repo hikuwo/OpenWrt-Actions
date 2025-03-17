@@ -3,6 +3,9 @@ RAX3000Me带USB款，闪存型号fm25s01a，生产日期20241129，其他型号�
 感谢[tomatojack](https://www.right.com.cn/forum/space-uid-938072.html)、[lgs2007m](https://github.com/lgs2007m)、[hanwckf](https://github.com/hanwckf)等大佬
 
 使用到的文件下载地址: [RAX3000Me固件](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me)、[配置文件及Uboot](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me_Files)
+
+### 特别说明：有一种情况，有一些设备会出现无法导出配置文件，是因为该设备的SN加盐后生成的密码为空。如这个SN码：081121000322188 这种情况下只能拆机TTL刷机了。
+
 ## 一、开启Telnet
 请使用OpenWrt、Ubuntu、WSL等```Linux系统```
 #### 1. 在终端输入路由器```SN码```
